@@ -10,10 +10,10 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 @CucumberOptions(
 //		features=".//Features/FileUploadFeature.feature",
 //		features={".//Features/ChatFeature.feature",".//Features/FileUploadFeature.feature"},
-//		features=".//Features/LoginFeature.feature",
+	features=".//Features/LoginFeature.feature",
 //		features=".//Features/AddDealFeature.feature",
 //		features=".//Features/AddConnectionFeature.feature",
-		features=".//Features/AddPolicyAdminFeature.feature",
+		// features=".//Features/AddPolicyAdminFeature.feature",
 //		features=".//Features/AddPolicyUserFeature.feature",
 		glue="StepDefinition",
 		dryRun=false,
