@@ -1,4 +1,4 @@
-name: Hello World Workflow
+name: Hello java Workflow
 
 on:
   push:
@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: My Step
-        run: echo "Hello, World! Java"
+        run: echo "Hello, World! Java and python"
