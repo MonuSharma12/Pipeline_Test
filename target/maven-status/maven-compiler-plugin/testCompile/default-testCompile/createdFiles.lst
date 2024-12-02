@@ -1,0 +1,9 @@
+PageObject\FileUploadPage.class
+PageObject\AddDealPage.class
+Utilities\ReadConfig.class
+PageObject\LoginPage.class
+PageObject\ChatPage.class
+TestRunner\Run.class
+StepDefinition\BaseClass.class
+StepDefinition\CloseStep.class
+StepDefinition\StepDef.class
