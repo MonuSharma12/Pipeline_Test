@@ -1,0 +1,13 @@
+name: Hello java Workflow
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: My Step
+        run: echo "Hello, World! Java and python"
