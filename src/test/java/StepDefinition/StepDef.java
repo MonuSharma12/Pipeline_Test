@@ -28,6 +28,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.*;
 
 import PageObject.AddConnectionPage;
 import PageObject.AddDealPage;
@@ -69,7 +70,7 @@ public class StepDef extends BaseClass
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-			driver.manage().window().maximize();
+//			driver.manage().window().maximize();
 			break;
 
 		case "msedge":
@@ -105,6 +106,7 @@ public class StepDef extends BaseClass
 		log.info("Chrome browser launched...");
 	}
 
+	
 	@When("User opens URL {string}")
 	public void user_opens_url(String url) {
 		
